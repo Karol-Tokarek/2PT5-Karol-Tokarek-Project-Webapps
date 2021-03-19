@@ -1,0 +1,359 @@
+*{
+
+	padding: 0;
+}
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+		min-height: 100vh;
+	
+
+}
+
+
+header
+{
+	background: rgb(101,0,0);
+background: linear-gradient(90deg, rgba(101,0,0,1) 0%, rgba(0,255,248,1) 0%, rgba(0,168,255,1) 100%);
+	display: flex;
+	justify-content: center;
+	color:white;
+	height: 95px;
+
+
+}
+
+
+header p{
+
+	font-family: impact;	
+	font-size:30px;
+	color: white;
+	
+}
+
+
+
+
+.menu
+{
+	background:white;
+	padding:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	height:35px;
+		border:solid lightblue 3px;
+		/*border-radius: 20px;*/
+
+}
+
+.menu ul > li {
+  float:left;
+  margin-left:50px;
+  transform: rotate(0deg);
+}
+
+.menu li{
+
+	color:black;
+	font-family: impact;	
+  	font-size: 25px;
+  	list-style-type:none;
+  	position:relative;    /* hmmm */
+
+
+}
+
+.menu a{
+	text-decoration: none;
+		color:black;
+	font-family: impact;	
+  	font-size: 25px;
+  	list-style-type:none;
+  		transition: 1s;
+  		position:inline;
+
+
+}
+
+.menu a:hover{
+	letter-spacing: 2px;
+	transition: 0.5s;
+	color:green;
+	text-decoration: underline overline;
+
+
+}
+
+@media (max-width: 1200px)
+{
+	.menu{
+		display:none;
+	}
+}
+
+
+#kontener
+{
+border:solid 2px black;
+height: auto;
+width:100%;
+min-height: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap;
+
+
+}
+
+#kontener2
+{
+border:solid 2px black;
+height: auto;
+width:100%;
+min-height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap;
+
+
+}
+#kontener3
+{
+border:solid 2px black;
+height: auto;
+width:100%;
+min-height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap;
+
+
+}
+
+#kontener4
+{
+border:solid 2px black;
+height: auto;
+width:100%;
+min-height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap:wrap;
+
+
+}
+
+
+.animal{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.organ{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.animal2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.animal3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+img{
+	width:auto;
+	height: 400px;
+	margin:10px;
+	border:solid 5px lightblue;
+	float:left;
+	
+
+}
+
+.color{
+	width:500px;
+	height: 400px;
+	margin:10px;
+	border:solid 5px lightblue;
+	float:left;
+}
+
+#color1{
+	background-color: red;
+}
+
+#color2{
+	background-color: blue;
+}
+
+#color3{
+	background-color: green;
+}
+
+
+.play{
+	display: none;
+}
+
+#kontener img:hover{
+	opacity: 80%;
+
+}
+
+#kontener2 img:hover{
+	opacity: 80%;
+
+}
+#kontener3 img:hover{
+	opacity: 80%;
+
+}
+
+#kontener4 img:hover{
+	opacity: 80%;
+
+}
+
+
+img:hover > .play{
+	display: block;
+
+}
+
+
+
+
+
+@media (max-width: 1000px)
+{
+	#kontener img{
+	height: 200px;
+	
+}
+#kontener2 img{
+	height: 200px;
+	
+}
+#kontener3 img{
+	height: 200px;
+	
+}
+.color{
+	width: 300px;
+	
+}
+
+#kontener5 img{
+	width:350px;
+	height:300px;
+}
+
+}
+
+h1{
+	text-align: center;
+	background-color: lightblue;
+	padding:10px;
+	border:solid 1px black;
+	border-radius: 50px;
+}
+
+.p1{
+	position: absolute;
+	z-index: 10;
+	font-size:20px;
+	border:solid 3px black;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+
+footer
+{
+	margin: 5px;
+	background: rgb(101,0,0);
+background: linear-gradient(90deg, rgba(101,0,0,1) 0%, rgba(0,255,248,1) 0%, rgba(0,168,255,1) 100%);
+	display: flex;
+	justify-content: center;
+	color:white;
+	height: 95px;
+
+
+}
+
+.pluca{
+	position: absolute;
+	z-index: 10;
+	font-size:20px;
+	border:solid 3px black;
+	border-radius: 50px;
+	padding: 10px;
+	margin-bottom: 160px;
+}
+.zoladek{
+	position: absolute;
+	z-index: 10;
+	font-size:20px;
+	border:solid 3px black;
+	border-radius: 50px;
+	padding: 10px;
+	margin-left:80px;
+	margin-top: 60px;
+}
+
+.watroba{
+	position: absolute;
+	z-index: 10;
+	font-size:20px;
+	border:solid 3px black;
+	border-radius: 50px;
+	padding: 10px;
+	margin-left:50px;
+}
+
+
+.jelitocienkie{
+	position: absolute;
+	z-index: 10;
+	font-size:20px;
+	border:solid 3px black;
+	border-radius: 50px;
+	padding: 10px;
+		margin-top: 180px;
+
+}
+
+.jelitogrube{
+	position: absolute;
+	z-index: 10;
+	font-size:20px;
+	border:solid 3px black;
+	border-radius: 50px;
+	padding: 10px;
+	margin-top: 110px;
+
+}
+
+footer p{
+	text-align: center; vertical-align: center; margin-top:60px;
+}
